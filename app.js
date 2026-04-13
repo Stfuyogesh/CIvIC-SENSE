@@ -10,12 +10,12 @@
        6. In Firestore, create a database (start in test mode for dev)
    ═══════════════════════════════════════════════════════ */
 const firebaseConfig = {
-  apiKey:            "YOUR_API_KEY",             // ← replace
-  authDomain:        "YOUR_PROJECT.firebaseapp.com",
-  projectId:         "YOUR_PROJECT_ID",          // ← replace
-  storageBucket:     "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId:             "YOUR_APP_ID"
+  apiKey: "AIzaSyBq_iDHPbO5PqEe1ND-zBgw9bmULushI5c",
+  authDomain: "civic-db-bb5c6.firebaseapp.com",
+  projectId: "civic-db-bb5c6",
+  storageBucket: "civic-db-bb5c6.firebasestorage.app",
+  messagingSenderId: "459829330160",
+  appId: "1:459829330160:web:06f0cefdf7b4b6e7464235"
 };
 
 /* Conditionally init Firebase (only index.html loads the SDK) */
